@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    char str[10];
+    char str[4];
     scanf("%s",&str);
     printf("You entered: %s",str);
 
