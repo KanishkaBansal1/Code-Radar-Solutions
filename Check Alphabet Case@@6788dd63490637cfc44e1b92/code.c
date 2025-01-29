@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main(){
-    char ha;
-    scanf("%c",&ha);
-    if(isupper(ha)){
+    char ch;
+    scanf("%c",&ch);
+    if(isupper(ch)){
         printf("Uppercase");
     }
-    else if(islower(ha)){
+    else if(islower(ch)){
         printf("Lowercase");
     }
     else{
