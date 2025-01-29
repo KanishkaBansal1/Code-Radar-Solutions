@@ -2,11 +2,12 @@
 int main(){
     char ha;
     scanf("%c",&ha);
-    if(ha==ha.upper()){
+    if(isupper()){
         printf("Uppercase");
     }
-    else{
+    else if(islower()){
         printf("Lowercase");
     }
+    
     return 0;
 }
