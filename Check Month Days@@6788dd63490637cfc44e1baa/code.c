@@ -12,6 +12,9 @@ int main(){
         else if(x==2){
            printf("28");
         }
+        else{
+            return;
+        }
     }
     return 0;
 }
