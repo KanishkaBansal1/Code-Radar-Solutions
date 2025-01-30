@@ -2,7 +2,7 @@
 int main(){
     int x;
     scanf("%d",&x);
-    if(x>=1 && x<=12){
+    
         if(x==1 || x==3 || x==5 || x==7 || x==8 || x==10 || x==12){
         printf("31");
         }
@@ -13,8 +13,7 @@ int main(){
            printf("28");
         }
         else{
-            return;
+            printf("Invalid month");
         }
-    }
     return 0;
 }
