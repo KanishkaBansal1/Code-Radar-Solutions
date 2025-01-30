@@ -7,5 +7,6 @@ int main(){
     else if(z=='-') printf("%.0f",x-y);
     else if(z=='*') printf("%.0f",x*y);
     else if(z=='/') printf("%.0f",x/y);
+    else{printf("error");}
     return 0;
 }
