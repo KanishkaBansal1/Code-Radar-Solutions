@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     int x;
-    if(x>=18){
+    if(x==20){
         printf("Eligible");
     }
     else{
