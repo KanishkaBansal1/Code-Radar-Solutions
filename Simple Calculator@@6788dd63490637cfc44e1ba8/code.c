@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main(){
-    int x,y;
+    float x,y;
     char z;
-    scanf("%d %d %c",&x,&y,&z);
-    if(z=='+') printf("%d",x+y);
-    else if(z=='-') printf("%d",x-y);
-    else if(z=='*') printf("%d",x*y);
-    else if(z=='/') printf("%d",x/y);
+    scanf("%f %f %c",&x,&y,&z);
+    if(z=='+') printf("%.0f",x+y);
+    else if(z=='-') printf("%.0f",x-y);
+    else if(z=='*') printf("%.0f",x*y);
+    else if(z=='/') printf("%.0f",x/y);
     return 0;
 }
