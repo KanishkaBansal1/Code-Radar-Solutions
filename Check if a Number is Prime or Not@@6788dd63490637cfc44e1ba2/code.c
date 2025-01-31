@@ -15,5 +15,8 @@ int main(){
         if(i*i >n){
             printf("Prime");
         }
+        else{
+            printf("Not Prime");
+        }
     }
 }
