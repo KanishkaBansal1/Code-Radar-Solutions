@@ -2,7 +2,10 @@
 int main(){
     int n;
     scanf("%d",&n);
-    int sum=((n*(n+1))/2);
-    printf("%d",sum);
+    int sum=0;
+    for(int i=1; i<=n; i++){
+        printf("%d",sum);
+    }
+    sum=sum+i;
     return 0;
 }
