@@ -13,7 +13,7 @@ int main(){
         }
     }
     for (int i=0; i<=n-1; i++){
-        printf("%d %d",arr[i],frequency);
+        printf("%d %d\n",arr[i],frequency);
     }
     
 }
