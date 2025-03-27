@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 int main(){
     int n;
     scanf("%d",&n);
@@ -8,12 +9,20 @@ int main(){
     }
     int target;
     scanf("%d",&target);
+    int index=-1;
+    int flag= false;
     for(int i=0; i<=n-1; i++){
         if(arr[i]==target){
-           target=arr[i];
-            
+           flag=true;
+           index=i;
+           break;
         }
-        printf("%d",i);
     }
-    
+    if(flag==true){
+        printf("%d",index);
+    }
+    else{
+        printf("-1");
+    }
+    return 0;
 }
