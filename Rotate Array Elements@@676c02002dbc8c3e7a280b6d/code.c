@@ -10,7 +10,7 @@ void reverse(int arr[],int a, int b){
 int main(){
     int n;
     scanf("%d",&n);
-    int arr[]={};
+    int arr[n];
     for(int i=0; i<=n-1; i++){
         scanf("%d\n",&arr[i]);
     }
