@@ -10,6 +10,7 @@ int main(){
         for(int j=i+1; j<=n-1; j++){
             if(arr[i]==arr[j]){
                 printf("-1");
+                break;
             }
         }
     }
