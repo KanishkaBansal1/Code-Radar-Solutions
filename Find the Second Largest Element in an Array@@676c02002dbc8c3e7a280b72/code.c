@@ -9,7 +9,7 @@ int main(){
     int max=arr[0];
     int secondmax=arr[0];
     for(int i=0; i<=n-1; i++){
-        if(arr[i]>secondmax && secondmax<max){
+        if(arr[i]>secondmax && arr[i]<max){
             secondmax=arr[i];
         }
     }
