@@ -1,8 +1,8 @@
 #include <stdio.h>
-int isprime(arr[i]){
-    if(arr[i]<2) return 0;
+int isprime(int j){
+    if(j<2) return 0;
     for(int i=2; i*i<=arr[i]; i++){
-        if(arr[i]%i==0) return 0;
+        if(j%i==0) return 0;
     }
     return 1;
 }
