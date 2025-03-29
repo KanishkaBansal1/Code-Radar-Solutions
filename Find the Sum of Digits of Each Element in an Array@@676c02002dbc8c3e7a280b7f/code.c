@@ -13,6 +13,7 @@ int main(){
             lastdigit=arr[i]%10;
             sum=sum+lastdigit;
             arr[i]=arr[i]/10;
+            break;
         }
     printf("%d ",sum);
     }
