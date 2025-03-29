@@ -7,17 +7,16 @@ int main(){
     for(int i=0; i<=n-1; i++){
         scanf("%d",&arr[i]);
     }
-    bool increasing = true;
-    bool decreasing = true;
+    bool flag = true;
     for(int i=0; i<=n-1; i++){
         if(arr[i]<=arr[i+1]){
-            decreasing=false;
+            flag=true;
         }
         if(arr[i]>=arr[i+1]){
-            increasing=false;
+            flag=true;
         }
     }
-    if(increasing || decreasing){
+    if(flag==true){
         printf("YES");
     }
     else{
