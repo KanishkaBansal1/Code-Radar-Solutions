@@ -20,7 +20,7 @@ int main(){
             count++;
         }
         if(arr[i]<0){
-            return 0;
+            continue;
         }
     }
     printf("%d",count);
