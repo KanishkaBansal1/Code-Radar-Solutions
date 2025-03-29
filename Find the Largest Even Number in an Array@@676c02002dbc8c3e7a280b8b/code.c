@@ -6,7 +6,7 @@ int main(){
     scanf("%d",&n);
     int arr[n];
     for(int i=0; i<=n-1; i++){
-        scanf("%d",&arr);
+        scanf("%d",&arr[i]);
     }
     int max=INT_MIN;
     bool flag =true;
