@@ -14,7 +14,8 @@ int main(){
         else{
             median=n/2 + (n+1)/2;
         }
-    }
     printf("%d",arr[median]);
+    }
+    
     return 0;
 }
