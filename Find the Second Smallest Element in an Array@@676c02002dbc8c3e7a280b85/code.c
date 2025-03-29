@@ -17,8 +17,10 @@ int main(){
     for(int i=0; i<=n-1; i++){
         if(arr[i]<secondmin && arr[i]>min){
             secondmin=arr[i];
+            printf("%d",secondmin);
+            return 0;
         }
     }
-    printf("%d",secondmin);
+    printf("-1");
     return 0;
 }
