@@ -16,7 +16,7 @@ int main(){
             flag=false;
         }
     }
-    if(flag==ture){
+    if(flag==true){
         printf("YES");
     }
     else{
