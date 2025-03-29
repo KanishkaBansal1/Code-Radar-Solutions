@@ -6,9 +6,10 @@ int main(){
     for(int i=0; i<=n-1; i++){
         scanf("%d",&arr[i]);
     }
-    int sum=0;
-    int lastdigit;
+    
     for(int i=0; i<=n-1; i++){
+        int sum=0;
+        int lastdigit;
         while(arr[i]!=0){
             lastdigit=arr[i]%10;
             sum=sum+lastdigit;
