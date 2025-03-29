@@ -13,7 +13,7 @@ int main(){
         while(arr[i]!=0){
             remainder=arr[i]%10;
             reverse= reverse*10 +remainder;
-            num=num/10;
+            arr[i]=arr[i]/10;
         }
         if(arr[i]==reverse){
             count++;
