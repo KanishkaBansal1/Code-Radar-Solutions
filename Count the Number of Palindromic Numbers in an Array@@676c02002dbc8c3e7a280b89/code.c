@@ -14,9 +14,10 @@ int main(){
             remainder=arr[i]%10;
             reverse= reverse*10 +remainder;
             arr[i]=arr[i]/10;
-        }
-        if(arr[i]==reverse){
+            if(arr[i]==reverse){
             count++;
+        }
+        
         }
     }
     printf("%d",count);
