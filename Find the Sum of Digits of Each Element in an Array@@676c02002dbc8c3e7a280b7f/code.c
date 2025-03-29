@@ -14,9 +14,7 @@ int main(){
             sum=sum+lastdigit;
             arr[i]=arr[i]/10;
         }
-    }
-    for(int i=0; i<=n-1; i++){
-        printf("%d ",sum);
+    printf("%d ",sum);
     }
     return 0;
 }
