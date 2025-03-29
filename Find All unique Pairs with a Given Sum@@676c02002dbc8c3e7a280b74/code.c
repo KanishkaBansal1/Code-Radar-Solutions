@@ -12,9 +12,8 @@ int main(){
         for(int j=i+1; j<=n-1; j++){
             if(arr[i]+arr[j]==target && arr[i]==arr[j]){
                 printf("%d %d",arr[i],arr[j]);
-                break;
+                return 0;
             }
-            break;
             if(arr[i]+arr[j]==target){
                 printf("%d %d\n",arr[i],arr[j]);
                 break;
