@@ -12,6 +12,9 @@ int main(){
             sum=sum+arr[i]%10;
             arr[i]=arr[i]/10;
         }
+        if(sum<0){
+            sum=sum*(-1);
+        }
     printf("%d ",sum);
     }
     return 0;
