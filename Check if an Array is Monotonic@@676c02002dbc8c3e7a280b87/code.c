@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stbool.h>
+#include <stdbool.h>
 int main(){
     int n;
     scanf("%d",&n);
