@@ -17,10 +17,13 @@ int main(){
     for(int i=0; i<=n-1; i++){
         if(arr[i]<secondmin && arr[i]>min){
             secondmin=arr[i];
-            printf("%d",secondmin);
-            return 0;
         }
     }
-    printf("-1");
+    if(secondmin==INT_MAX){
+        printf("-1");
+    }
+    else{
+        printf("%d",secondmax);
+    }
     return 0;
 }
