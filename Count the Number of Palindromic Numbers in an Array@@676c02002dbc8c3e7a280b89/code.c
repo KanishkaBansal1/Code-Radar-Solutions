@@ -8,16 +8,16 @@ int main(){
     }
     int count=0;
     for(int i=0; i<=n-1; i++){
-        int remainder;
+        int original = arr[i];
+        int remainder=0;
         int reverse=0;
         while(arr[i]!=0){
             remainder=arr[i]%10;
             reverse= reverse*10 +remainder;
             arr[i]=arr[i]/10;
-            if(arr[i]==reverse){
-            count++;
         }
-        
+        if(arr[i]==reverse){
+            count++;
         }
     }
     printf("%d",count);
