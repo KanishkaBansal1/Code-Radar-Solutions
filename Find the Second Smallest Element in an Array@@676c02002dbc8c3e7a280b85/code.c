@@ -23,7 +23,7 @@ int main(){
         printf("-1");
     }
     else{
-        printf("%d",secondmax);
+        printf("%d",secondmin);
     }
     return 0;
 }
