@@ -1,6 +1,7 @@
 #include <stdio.h>
 void findleaders(int arr[], int n){
     for(int i=n-2; i>=0; i--){
+        int last=arr[n-1];
         if(arr[i]>last){
             last=arr[i];
             printf("%d ",last);
