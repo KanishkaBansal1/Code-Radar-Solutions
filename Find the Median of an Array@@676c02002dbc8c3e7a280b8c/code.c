@@ -15,6 +15,6 @@ int main(){
             median=(arr[n/2]+arr[(n+1)/2])/2;
         }
     }
-    printf("%d",arr[median]);
+    printf("%d",median);
     return 0;
 }
