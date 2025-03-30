@@ -12,7 +12,7 @@ void selectionSort(char arr[],int n){
 }
 int printArray(char arr[],int n){
     for(int i=0; i<=n-1; i++){
-        char ch=(char)i;
+        char ch=arr[i];
         printf("%c ",i+96);
     }
 }
