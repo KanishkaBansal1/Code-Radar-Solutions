@@ -4,22 +4,22 @@ int main(){
     scanf("%d",&n);
     int nsp=n-1;
     int nst=1;
-    for(int i=1; i<=2*n-1; i++){
-        for(int j=1; j<=n-i; j++){
+    for(int i=1; i<=n; i++){
+        for(int j=1; j<=nsp; j++){
             printf(" ");
         }
-        for(int k=1; k<=2*i-1; k++){
+        for(int k=1; k<=nst; k++){
             printf("*");
         }
         if(i<=n){
-        nsp--;
-        nst++;
-       }
-        if(i>n){
-        nsp++;
-        nst--;
-    }
-    printf("\n");
+            nsp--;
+            nst+=2;
+        }
+        else{
+            nsp++;
+            nst-=2;
+        }
+        printf("\n");
     }
     return 0;
 }
