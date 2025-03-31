@@ -14,8 +14,8 @@ int main(){
         if(i<=n){
         nsp--;
         nst++;
-    }
-        else{
+       }
+        if(i>n){
         nsp++;
         nst--;
     }
